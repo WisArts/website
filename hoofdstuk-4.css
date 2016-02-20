@@ -1,0 +1,22 @@
+body {
+	text-align:center;
+}
+
+div#intro {
+	background-color:#a6a6a6;
+	margin-right:0px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+div#content-2 {
+	margin-right:0px;
+	background-color:#cccccc;
+	padding:20px 0px 50px 0px;
+	text-align:center;
+	margin-left:0px;
+}
+
+a:hover {
+	color:black;
+}

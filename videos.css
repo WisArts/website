@@ -1,0 +1,83 @@
+body {
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+div.video {
+	margin-top:60px;
+}
+
+div#navi {
+	padding-bottom:0px;
+}
+
+div#intro {
+	background-color:rgba(230, 148, 0, .8);
+	margin-right:0px;
+	padding-bottom:20px;
+	text-align:center;
+	padding-top:0;
+}
+
+div#vergelijking {
+	margin-right:0px;
+	background-color:rgba(0, 72, 220, .8);
+}
+
+div#fhaakjes {
+	margin-right:0px;
+	background-color:rgba(0, 92, 230, .8);
+}
+
+div#dhaakjes {
+	margin-right:0px;
+	background-color:rgba(0, 72, 220, .8);
+}
+
+div#ehaakjes {
+	margin-right:0px;
+	background-color:rgba(0, 92, 230, .8);
+}
+
+div#haakjes {
+	margin-right:0px;
+	background-color:rgba(0, 92, 230, .8);
+}
+	
+div#pythagoras {
+	margin-right:0px;
+	background-color:rgba(204, 0, 103, .8);
+	padding-bottom:40px;
+	padding-top:30px;
+}
+
+div#wortels {
+	background-color:rgba(180, 0, 90 , .8);
+	margin-right:0px;
+}
+
+div#machten{
+	margin-right:0px;
+	background-color:rgba(204, 0, 103, .8);
+}
+
+h1#video-titel {
+	margin-top:70px;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+p#video-uitleg {
+	text-align:center;
+	margin-top:10px;
+}
+
+div#pythagoras h1{
+	margin-top:20px;
+}
+
+div.row {
+	padding-bottom:60px;
+}
+
+

@@ -1,0 +1,130 @@
+div.row {
+	margin-right:0px;
+	text-align:center;
+	margin-left:0px;
+}
+
+div#intro {
+	background-color:rgba(230, 148, 0, .8);
+	margin-right:0px;
+	padding-bottom:40px;
+	text-align:center;
+}
+
+div#hf6 {
+	background-color:rgba(0, 92, 230, .8);
+	text-align:center;
+	height:300px;
+	width:50%;
+}
+
+div#hf5 {
+	background-color:rgba(0, 92, 230, .8);
+	text-align:center;
+	height:300px;
+	width:50%;
+}
+
+div#hf4 {
+	text-align:center;
+	background-color:rgba(204, 0, 103, .8);
+	height:300px;
+	width:50%;
+}
+
+div#hf3 {
+	text-align:center;
+	background-color:rgba(204, 0, 103, .8);
+	height:300px;
+	width:50%;
+}
+
+div#hf2 {
+	text-align:center;
+	background-color:rgba(0, 230, 0, .8);
+	height:300px;
+	width:50%;
+}
+
+div#hf1 {
+	text-align:center;
+	background-color:rgba(0, 230, 0, .8);
+	height:300px;
+	width:50%;
+}
+
+div#hf6:hover {
+	border:solid 1px;
+	background-color:rgba(0, 92, 230, .9);
+	border-color:rgb(0, 0, 0);;
+	transition:background-color, 1000ms, ease-out;
+}
+
+div#hf5:hover {
+	border:solid 1px;
+	background-color:rgba(0, 92, 230, .9);
+	border-color:rgb(0, 0, 0);
+	transition:background-color, 1000ms, ease-out;
+}
+
+div#hf4:hover {
+	border:solid 1px;
+	background-color:rgba(204, 0, 103, .9);
+	transition:background-color, 1000ms, ease-out;
+	border-color:rgb(0, 0, 0);
+}
+
+div#hf3:hover {
+	border:solid 1px;
+	background-color:rgba(204, 0, 103, .9);
+	transition:background-color, 1000ms, ease-out;
+	border-color:rgb(0, 0, 0);
+}
+
+div#hf2:hover {
+	border:solid 1px;
+	background-color:rgba(0, 230, 0, .9);
+	transition:background-color, 1000ms, ease-out;
+	border-color:rgb(0, 0, 0);
+}
+
+div#hf1:hover {
+	border:solid 1px;
+	background-color:rgba(0, 230, 0, .9);
+	transition:background-color, 1000ms, ease-out;
+	border-color:rgb(0, 0, 0);
+}
+
+a:hover {
+	color:black;
+}
+
+h1 {
+	margin:80px;
+	margin-bottom:15px;
+	font-size:50px;
+}
+
+h1#pagina-titel {
+	font-size:36px;
+	margin-top:20px;
+}
+h2 {
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:10px;
+	font-size:40px;
+}
+
+p {
+	margin:5px;
+	width:80%;
+	margin:0px auto;
+}
+
+div#knop a:hover{
+    text-decoration: none;
+	color:black;
+}
+
+

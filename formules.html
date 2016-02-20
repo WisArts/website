@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+	<head>
+		<title>WiZite</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="../../css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="../../css/hoofdstuk-5.css" type="text/css"/>
+		<link href='https://fonts.googleapis.com/css?family=Lato:700italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+		<script src="../../js/hf5.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="pano">
+			</div>
+			<header>
+				<div id="navbar">
+					<div id="buttons">
+						<a href="../../index.html"class="navi">Home</a>
+						<a href="../../hoofdstukken.html" class="navi">Hoofdstukken</a>
+						<a href="../../videos.html" class="navi">Videos</a>
+						<a href="../../contact.html"class="navi">Contact</a>
+					</div>
+				</div>
+				<div id="hnavbar">
+					<div id="hbuttons">
+						<a href="formules.html"class="hnavi topnavi">Kwadratische Formules</a>
+						<a href="ehaakjes.html" class="hnavi topnavi">Enkele haakjes wegwerken</a>
+						<a href="dhaakjes.html" class="hnavi topnavi">Dubbele haakjes wegwerken</a>
+						<a href="fhaakjes.html"class="hnavi botnavi">Formules met haakjes</a>
+						<a href="vergelijkingen.html"class="hnavi botnavi">Kwadratische vergelijkingen</a>				
+						<a href="eindtoets.html"class="hnavi botnavi">Eindtoets</a>						
+					</div>
+				</div>				
+			</header>		
+			<div id="intro" class="row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6">
+					<h1>Kwadratische formules</h1>
+					<p>Paragraaf 1 gaat over kwadratische formules. In deze paragraaf leer je over hoe je rekent met kwadratische formules, hoe een negatief getal in een kwadratische formule werkt en hoe je een grafiek gebruikt bij een kwadratische formule.</p>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+			<div id="opgaven-formules-1" class="row">	
+				<h3>Opgave 1</h3>
+				<p>Vul in wat er op de vraagtekens moet staan bij de volgende formules:</p>
+				<div class="col-lg-6">
+					<table id="tabel-1">
+						<caption>1a y = x^2</caption>
+						<tr>
+							<th>x</th>
+							<td>-3</td>
+							<td>-2</td>
+							<td>-1</td>
+							<td>0</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<th>y</th>
+							<td><input type="text" id="form-opg1-1"></td>
+							<td><input type="text" id="form-opg1-2"></td>
+							<td><input type="text" id="form-opg1-3"></td>
+							<td><input type="text" id="form-opg1-4"></td>
+							<td><input type="text" id="form-opg1-5"></td>
+							<td><input type="text" id="form-opg1-6"></td>
+							<td><input type="text" id="form-opg1-7"></td>
+						</tr>
+					</table>
+					<div id="fouttip"><p id="fouttip1">Tip: negatief * negatief = positief </p></div>
+				</div>
+				<div class="col-lg-6">
+					<table id="tabel-2">
+						<caption>1b y = -x^2</caption>
+						<tr>
+							<th>x</th>
+							<td>-3</td>
+							<td>-2</td>
+							<td>-1</td>
+							<td>0</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<th>y</th>
+							<td><input type="text" id="form-opg2-1"></td>
+							<td><input type="text" id="form-opg2-2"></td>
+							<td><input type="text" id="form-opg2-3"></td>
+							<td><input type="text" id="form-opg2-4"></td>
+							<td><input type="text" id="form-opg2-5"></td>
+							<td><input type="text" id="form-opg2-6"></td>
+							<td><input type="text" id="form-opg2-7"></td>
+						</tr>
+					</table>
+					<div id="fouttip"><p id="fouttip2">Tip: Kijk goed naar de - die voor de x staat!</p></div>
+				</div>
+			</div>
+			<div class="row" id="opgaven-formules-1-cont">
+				<div class="col-lg-12">
+					<button type="submit" onClick="checkpar1()">Controleer</button>
+				</div>
+			</div>
+			
+			<div id="opgaven-formules-2" class="row">
+				<h3>Opgave 2</h3>
+				<p>Gegeven is dat de formule die hoort bij de volgende tabel een kwadratische formule is. Kies de juiste grafiek en maak de juiste formule bij deze tabel:<br></br></p>
+				<div class="col-lg-6" id="grafiek">
+					<img id="grafiek" src="../../assets/formules-grafiek.png"></img>
+				</div>				
+				<div class="col-lg-6" id="tabel">
+				<table id="opgaven-formules-2-tabel">
+					<tr>
+						<th>x</th>
+						<td>-5</td>
+						<td>-4</td>
+						<td>-3</td>
+						<td>-3</td>
+						<td>-2</td>
+						<td>0</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<th>y</th>
+						<td>?</td>
+						<td>?</td>
+						<td>?</td>
+						<td>?</td>
+						<td>?</td>
+						<td>0</td>
+						<td>4</td>
+						<td>16</td>
+						<td>36</td>
+						<td>64</td>
+						<td>100</td>
+					</tr>
+				</table>
+					<p>1a <br>Oranje grafiek:
+					<button type="submit" onClick="par1opg3a()" id="form-opg3-1">A</button></p>
+					<p>Rode grafiek:
+					<button type="submit" onClick="par1opg3b()" id="form-opg3-2">B</button></p><br>1b
+					<p>Maak de formule (Als je 1 tot de macht 2 wilt opschrijven schrijf je: 1^2):<br><br>
+					<input type="text"  id="form-opg3-3" style="width:120px;"></input>
+					<div id="fouttip"><p id="fouttip3">Tip: kijk naar x=1 en x=5!</p></div><br>
+					<button type="submit" onClick="par1opg3()">Controleer</button></p>
+				</div>
+			</div>
+			
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
+	<div class="row">
+		<footer>
+			<p id="copyright">Copyright &copy; 2016 &nbsp; &nbsp;All rights reserved.</p>
+			<p>Contact: <a target="_blank" href="https://docs.google.com/forms/d/1RdfcbdXHMh4VgqeGPooPky8V4ZY7sy5WYqa3SHqTV4s/viewform">formulier</a> - email: contact@wisarts.nl &nbsp;&nbsp; Achtergrond van:	<a target="_blank" href="http://www.perksoflife.nl/">hier</a>
+		</footer>
+	</div>
+</html>

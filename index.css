@@ -1,0 +1,85 @@
+div#intro {
+	background-color:rgba(230, 148, 0, .8);
+	margin-right:0px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+a:hover {
+	color:black;
+}
+
+div#nieuw {
+	background-color:rgba(255, 164, 0, .8);
+	border:none;
+	text-align:center;
+}
+
+div#idee {
+	background-color:rgba(230, 148, 0, .8);
+	margin-right:0px;
+	padding:40px 0px 60px 0px;
+	text-align:center;
+}
+
+div.idee-tekst {
+	text-align:center;
+}
+
+div#knop {
+	width:300px; 
+	height:79px;
+	text-align:center;
+	position:relative;
+}
+
+a#knop{
+	width: 300px;
+	height: 79px;
+	padding: 20px;
+
+	position: absolute;
+	left: 25%;
+	right:25%;
+
+	margin: 25% 0 0 0px;
+}	
+
+div#knop-tekst {
+	border:1px solid;
+	border-color:black;
+}
+
+div#knop-tekst:hover {
+	border-color:black;
+	box-shadow:1px 1px 1px 1px	rgba(230, 148, 0, .3);
+	color:black;
+	background-color:rgba(230, 148, 0, .3);
+	transition: background-color 500ms ease-out;
+}
+
+h1 {
+	margin-bottom:20px;
+}
+
+h1#nieuwste-titel {
+	margin-bottom:10px;
+	margin-top:50px;
+}
+
+h2#video-titel {
+	text-align:center;
+	margin:25% 0% 10% 0%;
+}
+
+p#video-uitleg {
+	margin-top:20px;
+	text-align:center;
+}
+
+div.embed-responsive {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+

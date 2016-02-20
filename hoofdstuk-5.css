@@ -1,0 +1,282 @@
+body {
+	margin-top:120px;
+	text-align:center;
+}
+
+div.row {
+	margin-right:0px;
+	text-align:center;
+	margin-left:0px;
+	padding-bottom:40px;
+}
+
+div#intro {
+	background-color:rgba(230, 148, 0, .8);
+	margin-right:0px;
+	margin-top:0px;
+	margin-right:0px;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+/*par1*/
+
+div#opgaven-formules-1 {
+	background-color:rgba(255, 164, 0, .8);
+	border:none;
+	text-align:center;
+}
+
+div#opgaven-formules-2 {
+	background-color:rgba(230, 148, 0, .8);
+	border:none;
+	text-align:center;
+}
+
+table#opgaven-formules-2-tabel {
+	margin-top:5%;
+	margin-bottom:25px;
+}
+
+div#keuze {
+	margin-top:5%;
+}
+
+div#tabel {
+	
+}
+
+div#grafiek {
+	text-align:center;
+}
+
+img#grafiek {
+	width:100%;
+	margin:20px;
+}
+
+/*par1*/
+
+div#opgaven-formules-1-cont {
+	padding-bottom:10px;
+	background-color:rgba(255, 164, 0, .8);
+}
+
+div#fouttip {
+	height:25px;
+	color:red;
+}
+
+p#fouttip1 {
+	display:none;	
+}
+
+p#fouttip2 {
+	display:none;	
+}
+
+p#fouttip3 {
+	display:none;	
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	color:black;
+}
+
+h3#opgtitel {
+	padding-bottom:10px;
+}
+
+p#opguitleg {
+	padding-bottom:20px;
+}
+
+/*algemeen*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	text-align:center;
+	margin:5px auto 0px auto;
+}
+th, td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+caption {
+	color:black;
+}
+
+input {
+	width:50px;
+	background-color:white;
+}
+
+a.hnavi {
+	margin:6px 6px;
+	padding:20px 15px;
+}
+
+a.hnavi:hover {
+	background-color:rgba(240, 240, 240, .4);
+	transition: background-color 500ms ease-out;
+}
+
+p#intro {
+	max-width:550px;
+	margin:20px auto;
+}
+
+h1{
+	padding-bottom:5px;
+}
+
+div#hbuttons {
+	text-align:center;
+	top:59px;
+	position: fixed; 
+	z-index:999;
+	width:75%;
+	margin:auto;
+	color:white;
+	font-size:16px;
+	background-color:rgba(200, 200, 200, .8);
+	height:120px;	
+}
+
+a.hnavi {
+	height:60px;
+	width:30%;
+}
+
+a.topnavi {
+	width:30%;
+	float:left;
+	margin:0 0 0 3%;
+}
+
+a.botnavi {
+	margin:0 0 0 3%;
+	width:30%;
+	float:left;
+}
+
+
+@media screen and (max-width: 1435px) {
+	body {
+		width:100%;
+	}
+	
+	html {
+		width:100%;
+	}
+	
+	div.row {
+		width:100%;
+	}
+	
+	div#navbar {
+		width:100%;
+	}
+	
+	div#buttons {
+		width:100%;
+		padding-top:20px;
+		height:60px;
+	}
+
+	div#hbuttons {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	
+	div#buttons {
+		width:100%;
+		padding-top:20px;
+		height:90px;
+	}
+	
+	div#knop {
+		position:static;
+	}
+	
+	a.navi {
+		font-size:36px;
+	}
+	
+	a.hnavi {
+		font-size:28px;
+		height:100px;
+	}
+	
+	div#hbuttons {
+		top:90px;
+		height:220px;
+	}
+	
+	a.topnavi {
+		margin-bottom:20px;		
+	}
+	
+	body {
+		margin-top:251px;
+	}
+	
+	html, body, div.row, div#container {
+		width:100%;
+		margin-right:0px;
+	}
+	
+	img#grafiek {
+		width:80%;
+	}
+}
+
+/*par2*/
+
+div#par2video {
+	background-color:rgba(255, 164, 0, .8);
+	border:none;
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+div#opgaven-ehaakjes-1, div#opgaven-ehaakjes-1-cont {
+	background-color:rgba(230, 148, 0, .8);
+	border:none;
+	text-align:center;
+	padding:0px 0px 30px 0px;
+}
+
+div#float1 {
+	float:left;
+	width:33%
+}
+
+div#float2 {
+	float:left;
+	width:33%
+}
+
+div#float3 {
+	float:left;
+	width:33%
+}
+
+input#par2opg1a, input#par2opg1b, input#par2opg1c, input#par2opg1d, input#par2opg1e, input#par2opg1f {
+	width:125px;
+}
+
+
+
+
+
+(255, 164, 0, .8)
